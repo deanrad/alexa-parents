@@ -1,43 +1,32 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "city guide",
+      "invocationName": "my parents",
       "intents": [
         {
           "name": "AboutIntent",
-          "samples": [
-            "about",
-            "tell me about this place"
-          ],
+          "samples": ["about", "tell me about this place"],
           "slots": []
         },
 
         {
           "name": "CoffeeIntent",
-          "samples": [
-            "coffee"
-          ],
+          "samples": ["coffee"],
           "slots": []
         },
         {
           "name": "BreakfastIntent",
-          "samples": [
-            "breakfast"
-          ],
+          "samples": ["breakfast"],
           "slots": []
         },
         {
           "name": "LunchIntent",
-          "samples": [
-            "lunch"
-          ],
+          "samples": ["lunch"],
           "slots": []
         },
         {
           "name": "DinnerIntent",
-          "samples": [
-            "dinner"
-          ],
+          "samples": ["dinner"],
           "slots": []
         },
 
@@ -60,11 +49,7 @@
 
         {
           "name": "GoOutIntent",
-          "samples": [
-            "go out",
-            "go outside",
-            "lets go out"
-          ],
+          "samples": ["go out", "go outside", "lets go out"],
           "slots": []
         },
         {
