@@ -1,9 +1,9 @@
-# Build An Alexa City Guide Skill
+# Build An Alexa my parents Skill
 <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/header._TTH_.png" />
 
 [![Voice User Interface](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/1-off._TTH_.png)](./instructions/1-voice-user-interface.md)[![Lambda Function](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/2-off._TTH_.png)](./instructions/2-lambda-function.md)[![Connect VUI to Code](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/3-off._TTH_.png)](./instructions/3-connect-vui-to-code.md)[![Testing](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/4-off._TTH_.png)](./instructions/4-testing.md)[![Customization](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/5-off._TTH_.png)](./instructions/5-customization.md)[![Publication](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/6-off._TTH_.png)](./instructions/6-publication.md)
 
-# Build your City Guide skill
+# Build your my parents skill
 
 This Alexa sample skill is a template for a local recommendations skill. Alexa will use the data that you provide to offer recommendations according to a user's stated preferences.
 
@@ -25,14 +25,14 @@ Be sure to take a look at the [Additional Resources](#additional-resources) at t
 ### Usage
 
 ```text
-Alexa, ask City Guide for a place I can eat breakfast.
+Alexa, ask my parents for a place I can eat breakfast.
 	>> Welcome to Gloucester Guide! For breakfast, try this, Zeke's place.
 
-Alexa, start City Guide
+Alexa, start my parents
 ```
 
 ### Repository Contents
-* `/.ask`	- [ASK CLI (Command Line Interface) Configuration](https://developer.amazon.com/docs/smapi/ask-cli-intro.html)	 
+* `/.ask`	- [ASK CLI (Command Line Interface) Configuration](https://developer.amazon.com/docs/smapi/ask-cli-intro.html)
 * `/lambda/custom` - Back-End Logic for the Alexa Skill hosted on [AWS Lambda](https://aws.amazon.com/lambda/)
 * `/models` - Voice User Interface and Language Specific Interaction Models
 * `/instructions` - Step-by-Step Instructions for Getting Started
@@ -86,7 +86,7 @@ ASK CLI will create the skill and the lambda function for you. The Lambda functi
 2. Simulate verbal interaction with your skill through the command line using the following example:
 
 	```bash
-	 $ ask simulate -l en-GB -t "start city guide"
+	 $ ask simulate -l en-GB -t "start my parents"
 
 	 ✓ Simulation created for simulation id: 4a7a9ed8-94b2-40c0-b3bd-fb63d9887fa7
 	◡ Waiting for simulation response{
@@ -97,7 +97,7 @@ ASK CLI will create the skill and the lambda function for you. The Lambda functi
 3. Once the "Test" switch is enabled, your skill can be tested on devices associated with the developer account as well. Speak to Alexa from any enabled device, from your browser at [echosim.io](https://echosim.io/welcome), or through your Amazon Mobile App and say :
 
 	```text
-	Alexa, start city guide
+	Alexa, start my parents
 	```
 
 
