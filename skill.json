@@ -3,14 +3,13 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Ask an expert for a recommendation on what to do in your city.",
+          "summary": "Ask your parents for a favor, some help, anything!",
           "examplePhrases": [
-            "Alexa open city guide",
-            "Alexa tell city guide i'm hungry",
-            "Alexa ask city guide to give me an activity"
+            "Alexa ask my parents if I can watch TV",
+            "Alexa ask my parents if I can have some ice cream"
           ],
-          "name": "City Guide",
-          "description": "Ask an expert for a recommendation on what to do in your city. You can even ask for tips within a specific distance."
+          "name": "My Parents",
+          "description": "A proxy"
         }
       },
       "isAvailableWorldwide": true,
