@@ -3,18 +3,19 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Ask your parents for a favor, some help, anything!",
+          "summary":
+            "Ask your coach for advice, report an injury, or an event performance",
           "examplePhrases": [
-            "Alexa ask my parents if I can watch TV",
-            "Alexa ask my parents if I can have some ice cream"
+            "Alexa ask my coach if I can watch TV",
+            "Alexa ask my coach if I can have some ice cream"
           ],
-          "name": "My Parents",
+          "name": "My Coach",
           "description": "A proxy"
         }
       },
       "isAvailableWorldwide": true,
       "testingInstructions": "Sample Testing Instructions.",
-      "category": "EDUCATION_AND_REFERENCE",
+      "category": "HEALTH_AND_FITNESS",
       "distributionCountries": []
     },
     "apis": {
